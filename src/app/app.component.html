@@ -1,0 +1,7 @@
+<h1>{{name}}</h1>
+<h3>Counter</h3>
+<h3>{{counter}}</h3>
+<button (click)="incrementCounter()">Increment</button>
+<h3> Input String </h3>
+<input [value]="displayString" (input)="changeValue($event.target.value)"/>
+<h3>{{displayString}}</h3>
